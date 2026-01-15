@@ -1,0 +1,56 @@
+############################################
+# IntelliJ IDEA
+############################################
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+############################################
+# Gradle
+############################################
+.gradle/
+build/
+**/build/
+
+# Gradle GUI / logs
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+.gradle-cache/
+
+############################################
+# Fabric / Minecraft Dev Runtime
+############################################
+run/
+logs/
+*.log
+crash-reports/
+world/
+saves/
+mods/
+config/
+resourcepacks/
+shaderpacks/
+
+# If you want to keep run/config etc, remove the lines above selectively.
+
+############################################
+# OS / Misc
+############################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+############################################
+# Kotlin (혹시 쓰는 경우 대비)
+############################################
+*.kotlin_module
+
+############################################
+# Generated / temporary
+############################################
+*.tmp
+*.swp
+*.swo
+*~
